@@ -6,4 +6,4 @@ class User{
 }
 const Tom : User = new User("Tom");
 const header = this.document.getElementById("header");
-header?.innerHTML = "Hello, " + Tom.name;
+header.innerHTML = "Hello, " + Tom.name;
